@@ -1,0 +1,20 @@
+{
+    "name": "anthraxisbr/generated-google-cloud-platform-php-sdk",
+    "description": "Google Cloud Platform SDK generated from anthraxisbr/doc2sdk",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Gabriel Mourão de Melo",
+            "email": "gabrielmouraodemelo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AnthraxisBR\\AutoGcpSdk\\": "src/"
+        }
+    }
+}
